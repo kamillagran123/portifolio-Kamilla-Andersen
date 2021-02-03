@@ -353,11 +353,16 @@ button:focus {
     }
     #top_part {
         border:0px;
+        text-align: center;
+        
     }
     #top_part tr td{
         width:100%;
         text-align:center;
     }
+
+    
+
     #about {
         width:92% !important;
         height:75vh;
@@ -368,13 +373,20 @@ button:focus {
     #about table {
         width:100%;
         margin-top:6vh;
+        
     }
     #about table tr td {
         text-align:center;
     }
+
+ #about p {
+     text-align: center;
+     width: 100%;
+ }
+   
     .btn_one {
     padding:6px 30px;
-    width:60%;
+    width:30%;
     margin:4vh auto;
     box-shadow:0px 10px 20px rgba(0, 174, 187, 1);
     background:rgba(0, 174, 187, 1);
@@ -409,7 +421,7 @@ button:focus {
     }
     header {
         width:96vw;
-        background:white;
+        background-color:black;
         padding:4vh 2vw;
         position:absolute;
     }
@@ -421,5 +433,6 @@ button:focus {
     }
     #navigation a {
         color:white;
+       
     }
 }
